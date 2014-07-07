@@ -7,6 +7,12 @@ This is a storage module for OrigoDB, the in-memory database toolkit for NET/Mon
 
 Example code for eventstore tcp running on localhost and port 1113:
 
+### Nuget installation
+```
+   install-package origodb.eventstore
+```
+
+###  Code example
 ```csharp
    var config = EngineConfiguration.Create();
    var endPoint = new IPEndPoint(IPAddress.LoopBack, 1113);
